@@ -13,14 +13,14 @@
             
             
             function append(value){
-            var x = value + "";
-            if(x.length < 2)
+            var result = value + "";
+            if(result.length < 2)
             {
-                return "0" + x;
+                return "0" + result;
             }
             else
             {
-                return x;
+                return result;
             }
         };
 
